@@ -22,12 +22,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
   <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+  <nav class="main-header navbar navbar-expand-md navbar-primary navbar-dark">
     <div class="container">
       <a href="../demosmbp/index3.html" class="navbar-brand">
         <img src="../demosmbp/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
              style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+        <span class="brand-text font-weight-light">SPMB</span>
       </a>
       
       <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="index3.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Dokumentasi</a>
           </li>
           <li class="nav-item dropdown">
             <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Dropdown</a>
@@ -96,7 +96,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Messages Dropdown Menu -->
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
-            <i class="fas fa-comments"></i>
+            <i class="fas fa-bell"></i>
             <span class="badge badge-danger navbar-badge">3</span>
           </a>
           <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
@@ -154,34 +154,23 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Notifications Dropdown Menu -->
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
-            <i class="far fa-bell"></i>
-            <span class="badge badge-warning navbar-badge">15</span>
+            <i class="far fa-user"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-            <span class="dropdown-header">15 Notifications</span>
             <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fas fa-envelope mr-2"></i> 4 new messages
-              <span class="float-right text-muted text-sm">3 mins</span>
+            <a href="#" class="dropdown-item dropdown-footer">
+              <i class="fas fa-cog mr-2"></i > Edit Profile
             </a>
             <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fas fa-users mr-2"></i> 8 friend requests
-              <span class="float-right text-muted text-sm">12 hours</span>
+            <a href="#" class="dropdown-item dropdown-footer">
+              <i class="fas fa-users mr-2"></i> Logout
             </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fas fa-file mr-2"></i> 3 new reports
-              <span class="float-right text-muted text-sm">2 days</span>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
           </div>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#"><i
               class="fas fa-th-large"></i></a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>
@@ -194,80 +183,276 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="container">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark"> Top Navigation <small>Example 3.0</small></h1>
+            <h1 class="m-0 text-dark"> Halaman Utama <small></small></h1>
           </div><!-- /.col -->
-          <div class="col-sm-6">
+          <!-- <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
               <li class="breadcrumb-item"><a href="#">Layout</a></li>
               <li class="breadcrumb-item active">Top Navigation</li>
             </ol>
-          </div><!-- /.col -->
+          </div> -->
+          <!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
-
+    
     <!-- Main content -->
+    <section class="content">
+      <div class="container">
+        <!-- Info boxes -->
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h5>Surat</h5>
+                <p>Pindah Domisili</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                Buat Surat <i class="fas fa-plus-circle"></i>
+              </a>
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h5>Surat</h5>
+                <p> Pengantar Nikah</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                Buat Surat <i class="fas fa-plus-circle"></i>
+              </a>
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+
+          <!-- fix for small devices only -->
+          <div class="clearfix hidden-md-up"></div>
+
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h5>Surat</h5>
+                <p>Keterangan Tidak Mampu</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                Buat Surat <i class="fas fa-plus-circle"></i>
+              </a>
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h5>Surat</h5>
+                <p>Akta Kelahiran</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                Buat Surat <i class="fas fa-plus-circle"></i>
+              </a>
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h5>Surat</h5>
+                <p>Pengantar Rt/Rw </p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                Buat Surat <i class="fas fa-plus-circle"></i>
+              </a>
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h5>Surat</h5>
+                <p> Pengantar Cerai</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                Buat Surat <i class="fas fa-plus-circle"></i>
+              </a>
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h5>Surat</h5>
+                <p>Keterangan Waris</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                Buat Surat <i class="fas fa-plus-circle"></i>
+              </a>
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h5>Surat</h5>
+                <p>Pengantar SKCK</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                Buat Surat <i class="fas fa-plus-circle"></i>
+              </a>
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h5>Surat</h5>
+                <p>Keterangan Usaha</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <a href="#" class="small-box-footer">
+                Buat Surat <i class="fas fa-plus-circle"></i>
+              </a>
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div><!--/. container-fluid -->
+    </section>
     <div class="content">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+          <div class="col-lg-8">
+              <div class="card card-primary card-outline">
+                  <div class="card-header">
+                      <h5 class="card-title m-0">Status Surat Yang di Ajukan</h5>
+                  </div>
+                  <div class="card-body p-0">
+                      <ul class="products-list product-list-in-card pl-2 pr-2">
+                          <li class="item">
+                              <a href="javascript:void(0)" class="product-title">Surat Pindah Domisili
+                                  <span class="badge badge-warning float-right">Menunggu
+                                      Persetujuan</span></a>
+                              <span class="product-description">
+                                  Surat yang anda ajukan sedang menunggu persetujuan dari Bapak/Ibu Lurah
+                              </span>
+                          </li>
+                          <li class="item">
+                              <a href="javascript:void(0)" class="product-title">Surat Pengantar Nikah
+                                  <span class="badge badge-warning float-right">Menunggu
+                                      Persetujuan</span></a>
+                              <span class="product-description">
+                                Surat yang anda ajukan sedang menunggu persetujuan dari Bapak/Ibu Lurah
+                              </span>
+                          </li>
+                          <li class="item">
+                              <a href="javascript:void(0)" class="product-title">Surat Keterangan Tidak Mampu
+                                <span class="badge badge-success float-right">Telah di Setujui</span></a>
+                              <span class="product-description">
+                                Surat yang anda ajukan telah disetujui . Silahkan diambil di kelurahan
+                              </span>
+                          </li>
+                          <li class="item">
+                              <a href="javascript:void(0)" class="product-title">Surat Izin Usaha
+                                  <span class="badge badge-warning float-right">Menunggu
+                                      Persetujuan</span></a>
+                              <span class="product-description">
+                                Surat yang anda ajukan sedang menunggu persetujuan dari Bapak/Ibu Lurah 
+                              </span>
+                          </li>
+                          <li class="item">
+                              <a href="javascript:void(0)" class="product-title">Surat Pengantar Cerai
+                                  <span class="badge badge-warning float-right">Menunggu
+                                      Persetujuan</span></a>
+                              <span class="product-description">
+                                Surat yang anda ajukan sedang menunggu persetujuan dari Bapak/Ibu Lurah
+                              </span>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="card-footer clearfix">
+                      <a href="javascript:void(0)" class="btn btn-sm btn-secondary float-right">Lihat
+                          Semua Surat</a>
+                  </div>
               </div>
-            </div>
-
-            <div class="card card-primary card-outline">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div><!-- /.card -->
           </div>
-          <!-- /.col-md-6 -->
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-header">
-                <h5 class="card-title m-0">Featured</h5>
-              </div>
-              <div class="card-body">
-                <h6 class="card-title">Special title treatment</h6>
+          <div class="col-lg-4">
+              <div class="card card-primary card-outline">
+                  <div class="card-header">
+                      <h3 class="card-title">Jadwal Wawancara Anda</h3>
 
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                      <ul class="products-list product-list-in-card pl-2 pr-2">
+                          <li class="item">
+                              <a href="javascript:void(0)" class="product-title">Wawancara Pembuatan Surat Cerai
+                                  <span class="badge badge-info float-right">2020-09-20 09:30</span></a>
+                              <span class="product-description">
+                                  wawancara bisa dilakukan secara online atau offline
+                              </span>
+                          </li>
+                          <li class="item">
+                              <a href="javascript:void(0)" class="product-title">Wawancara Pembuatan SKTM
+                                  <span class="badge badge-info float-right">2020-09-20 09:30</span></a>
+                              <span class="product-description">
+                                Wawancara bisa dilakukan secara online atau offline
+                              </span>
+                          </li>
+                          <li class="item">
+                              <a href="javascript:void(0)" class="product-title">Wawancara Pembuatan SKTM
+                                  <span class="badge badge-info float-right">2020-09-20 09:30</span></a>
+                              <span class="product-description">
+                                  Wawancara bisa dilakukan secara online atau offline
+                              </span>
+                          </li>
+                          <li class="item">
+                              <a href="javascript:void(0)" class="product-title">Wawancara Pembuatan SKTM
+                                  <span class="badge badge-info float-right">2020-09-20 09:30</span></a>
+                              <span class="product-description">
+                                Wawancara bisa dilakukan secara online atau offline
+                              </span>
+                          </li>
+                      </ul>
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer text-center">
+                      <a href="javascript:void(0)" class="uppercase">Lihat Semua Jadwal Wawancara</a>
+                  </div>
+                  <!-- /.card-footer -->
               </div>
-            </div>
-
-            <div class="card card-primary card-outline">
-              <div class="card-header">
-                <h5 class="card-title m-0">Featured</h5>
-              </div>
-              <div class="card-body">
-                <h6 class="card-title">Special title treatment</h6>
-
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
           </div>
-          <!-- /.col-md-6 -->
-        </div>
+      </div>
         <!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
